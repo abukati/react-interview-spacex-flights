@@ -43,7 +43,7 @@ export const FlightPage = () => {
   }
 
   const filteredFlights = () => {
-    if (filterBy) {
+    if (filterBy === true || filterBy === false) {
       const filtered = flights.filter(flight => flight.success === filterBy)
       return filtered.slice(0, 20)
     } else {
