@@ -6,6 +6,7 @@ import { FlightFilter } from '../components/FlightFilter'
 
 export const FlightPage = () => {
   const [flights, setFlights] = useLocalStorageState('flights', [])
+
   const [error, setError] = useState(null)
   const [filterBy, setFilterBy] = useState(null)
 
@@ -51,7 +52,12 @@ export const FlightPage = () => {
   }
 
 
-  if (error) return <div>An error has occurred, {error}</div>
+  if (error) return (
+    <div className="flight-page">
+      <div className="error-msg">An error has occurred, {error}. Please try again.</div>
+    </div>
+  )
+
   return (
     <div className="flight-page">
       <FlightFilter onFilter={onFilter} />
