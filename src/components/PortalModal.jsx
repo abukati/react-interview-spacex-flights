@@ -1,8 +1,13 @@
+import { useEffect } from "react"
 import { createPortal } from "react-dom"
 import { FlightDetails } from "../views/FlightDetails"
 
 export const PortalModal = ({ flight, isOpen, onClose }) => {
   
+  useEffect(() => {
+    document.title = isOpen ? flight.name : 'SpaceX Enthusiasts'
+  })
+
   let rootStyle = document.getElementById('root').style
 
   if (isOpen) {
