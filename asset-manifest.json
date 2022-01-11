@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/react-interview-spacex-flights/static/css/main.c6fb0dfd.css",
-    "main.js": "/react-interview-spacex-flights/static/js/main.56116acc.js",
+    "main.css": "/react-interview-spacex-flights/static/css/main.69c41f21.css",
+    "main.js": "/react-interview-spacex-flights/static/js/main.1d584823.js",
     "static/js/787.b919a441.chunk.js": "/react-interview-spacex-flights/static/js/787.b919a441.chunk.js",
     "index.html": "/react-interview-spacex-flights/index.html",
-    "main.c6fb0dfd.css.map": "/react-interview-spacex-flights/static/css/main.c6fb0dfd.css.map",
-    "main.56116acc.js.map": "/react-interview-spacex-flights/static/js/main.56116acc.js.map",
+    "main.69c41f21.css.map": "/react-interview-spacex-flights/static/css/main.69c41f21.css.map",
+    "main.1d584823.js.map": "/react-interview-spacex-flights/static/js/main.1d584823.js.map",
     "787.b919a441.chunk.js.map": "/react-interview-spacex-flights/static/js/787.b919a441.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.c6fb0dfd.css",
-    "static/js/main.56116acc.js"
+    "static/css/main.69c41f21.css",
+    "static/js/main.1d584823.js"
   ]
 }
