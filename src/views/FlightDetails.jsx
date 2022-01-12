@@ -46,9 +46,9 @@ export const FlightDetails = ({ flight }) => {
       </div>
       <div className="flight-links">
         <p className="mission-video">
-          <iframe width="fit" height="fit" src={`https://www.youtube.com/embed/${flight.links.youtube_id}`} title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
+          <iframe src={`https://www.youtube.com/embed/${flight.links.youtube_id}`} title="YouTube video player" frameBorder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowFullScreen></iframe>
         </p>
-        {/* { flight.links.flickr.original.length > 0 && <Carousel images={flight.links.flickr.original} /> } */}
+        { flight.links.flickr.original.length > 0 && <Carousel images={flight.links.flickr.original} /> }
         <p className="read-more">Read more about the mission on <a href={flight.links.wikipedia} rel="noreferrer" target="_blank">wikipedia</a></p>
       </div>
     </div>
